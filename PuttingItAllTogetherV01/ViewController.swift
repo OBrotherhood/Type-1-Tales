@@ -32,6 +32,14 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func resetStory(_ sender: Any) {
+        //Button that is used to reset the app
+        currentScenceCheck = -1
+        currentPage.text = "-1"
+        
+    }
+    
+    
     func saveData(dataToBeSaved: String){
         //Writting to the file
         let fileName = "currentpage"

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/Ollie/Google Drive/Bath Spa Uni/Year 3/Modules /Creative Incubator/Artefact/Test Apps/PuttingItAllTogetherV01/PuttingItAllTogetherV01/Scene2.mov">
-   </FileRef>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
