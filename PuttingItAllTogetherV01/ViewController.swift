@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        saveData(dataToBeSaved: "Oliver Brotherhood")
+        //saveData(dataToBeSaved: "Oliver Brotherhood")
         currentPage.text = "\(currentScenceCheck)"
         
     }
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     
     func saveData(dataToBeSaved: String){
         //Writting to the file
-        let fileName = "currentpage"
+        let fileName = "test"
         let documentDirURL =  try!FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
         let fileURL = documentDirURL.appendingPathComponent(fileName).appendingPathExtension("txt")
         
@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     func loadData() -> String{
         //Reading from the file
         
-        let fileName = "currentpage"
+        let fileName = "test"
         let documentDirURL =  try!FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
         let fileURL = documentDirURL.appendingPathComponent(fileName).appendingPathExtension("txt")
         

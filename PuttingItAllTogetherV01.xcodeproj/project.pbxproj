@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0712BDD222918C00008CD8C0 /* t3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0712BDCD22918BFE008CD8C0 /* t3.png */; };
+		0712BDD322918C00008CD8C0 /* t1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0712BDCE22918BFE008CD8C0 /* t1.png */; };
+		0712BDD422918C00008CD8C0 /* t4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0712BDCF22918BFE008CD8C0 /* t4.png */; };
+		0712BDD522918C00008CD8C0 /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0712BDD022918BFF008CD8C0 /* t2.png */; };
+		0712BDD622918C00008CD8C0 /* t5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0712BDD122918BFF008CD8C0 /* t5.png */; };
+		0712BDDA229198B6008CD8C0 /* ProgressMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712BDD9229198B6008CD8C0 /* ProgressMapViewController.swift */; };
 		071567E02283640500C97AD7 /* text box.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071567DF2283640500C97AD7 /* text box.jpg */; };
 		071567E2228364EB00C97AD7 /* text b0x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 071567E1228364EB00C97AD7 /* text b0x2.png */; };
+		0729027E228D9740000E1D9B /* island 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 07290277228D973B000E1D9B /* island 5.png */; };
+		0729027F228D9740000E1D9B /* island 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07290278228D973C000E1D9B /* island 6.jpg */; };
+		07290280228D9740000E1D9B /* island 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 07290279228D973D000E1D9B /* island 4.png */; };
+		07290281228D9740000E1D9B /* island 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0729027A228D973D000E1D9B /* island 7.png */; };
+		07290282228D9740000E1D9B /* island 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0729027B228D973D000E1D9B /* island 2.png */; };
+		07290283228D9740000E1D9B /* island 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0729027C228D973E000E1D9B /* island 3.png */; };
+		07290284228D9740000E1D9B /* island 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0729027D228D973F000E1D9B /* island 1.png */; };
 		073639E6227B499A00F0CAD3 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 073639E5227B499A00F0CAD3 /* background.jpg */; };
 		073639E82281A91B00F0CAD3 /* main background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 073639E72281A91B00F0CAD3 /* main background.jpg */; };
 		073639EA2281AB1000F0CAD3 /* logbook background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 073639E92281AB0F00F0CAD3 /* logbook background.jpg */; };
@@ -27,23 +40,40 @@
 		07949E3C225A95DB00407846 /* Screenshot 2019-04-07 at 21.31.39.png in Resources */ = {isa = PBXBuildFile; fileRef = 07949E3B225A95DB00407846 /* Screenshot 2019-04-07 at 21.31.39.png */; };
 		07949E3E225A97C700407846 /* Scene01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07949E3D225A97C700407846 /* Scene01ViewController.swift */; };
 		07949E4F225AA36600407846 /* scene01.mov in Resources */ = {isa = PBXBuildFile; fileRef = 07949E4E225AA36500407846 /* scene01.mov */; };
+		07DDE10D229022BD00B6F780 /* new logbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DDE10B229022BC00B6F780 /* new logbook.png */; };
+		07DDE10E229022BD00B6F780 /* new story.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DDE10C229022BC00B6F780 /* new story.png */; };
 		07FCA1FC2278896100F3463C /* scene05.mov in Resources */ = {isa = PBXBuildFile; fileRef = 07FCA1F72278895F00F3463C /* scene05.mov */; };
 		07FCA1FD2278896100F3463C /* scene06.mov in Resources */ = {isa = PBXBuildFile; fileRef = 07FCA1F82278895F00F3463C /* scene06.mov */; };
 		07FCA1FE2278896100F3463C /* scene07.mov in Resources */ = {isa = PBXBuildFile; fileRef = 07FCA1F92278896000F3463C /* scene07.mov */; };
 		07FCA1FF2278896100F3463C /* scene03.mov in Resources */ = {isa = PBXBuildFile; fileRef = 07FCA1FA2278896100F3463C /* scene03.mov */; };
 		07FCA2002278896100F3463C /* scene04.mov in Resources */ = {isa = PBXBuildFile; fileRef = 07FCA1FB2278896100F3463C /* scene04.mov */; };
 		07FCA2022278AE3C00F3463C /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCA2012278AE3C00F3463C /* ToDoViewController.swift */; };
+		B509B8522AD6A5522F90BBE7 /* Pods_PuttingItAllTogetherV01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FE078160085ABF212E7EC0 /* Pods_PuttingItAllTogetherV01.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0712BDCD22918BFE008CD8C0 /* t3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t3.png; sourceTree = "<group>"; };
+		0712BDCE22918BFE008CD8C0 /* t1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t1.png; sourceTree = "<group>"; };
+		0712BDCF22918BFE008CD8C0 /* t4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t4.png; sourceTree = "<group>"; };
+		0712BDD022918BFF008CD8C0 /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t2.png; sourceTree = "<group>"; };
+		0712BDD122918BFF008CD8C0 /* t5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t5.png; sourceTree = "<group>"; };
+		0712BDD9229198B6008CD8C0 /* ProgressMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressMapViewController.swift; sourceTree = "<group>"; };
 		071567DF2283640500C97AD7 /* text box.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "text box.jpg"; sourceTree = "<group>"; };
 		071567E1228364EB00C97AD7 /* text b0x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text b0x2.png"; sourceTree = "<group>"; };
+		07290277228D973B000E1D9B /* island 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "island 5.png"; sourceTree = "<group>"; };
+		07290278228D973C000E1D9B /* island 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "island 6.jpg"; sourceTree = "<group>"; };
+		07290279228D973D000E1D9B /* island 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "island 4.png"; sourceTree = "<group>"; };
+		0729027A228D973D000E1D9B /* island 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "island 7.png"; sourceTree = "<group>"; };
+		0729027B228D973D000E1D9B /* island 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "island 2.png"; sourceTree = "<group>"; };
+		0729027C228D973E000E1D9B /* island 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "island 3.png"; sourceTree = "<group>"; };
+		0729027D228D973F000E1D9B /* island 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "island 1.png"; sourceTree = "<group>"; };
 		073639E5227B499A00F0CAD3 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		073639E72281A91B00F0CAD3 /* main background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "main background.jpg"; sourceTree = "<group>"; };
 		073639E92281AB0F00F0CAD3 /* logbook background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logbook background.jpg"; sourceTree = "<group>"; };
 		073639EB2281B54600F0CAD3 /* log reading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "log reading.jpg"; sourceTree = "<group>"; };
 		073639ED2281B57200F0CAD3 /* log reading2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "log reading2.jpg"; sourceTree = "<group>"; };
 		0740623E2266249700DE28A7 /* scene02.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = scene02.mov; sourceTree = "<group>"; };
+		077E6CE5D66EFFF8024351B8 /* Pods-PuttingItAllTogetherV01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuttingItAllTogetherV01.debug.xcconfig"; path = "Target Support Files/Pods-PuttingItAllTogetherV01/Pods-PuttingItAllTogetherV01.debug.xcconfig"; sourceTree = "<group>"; };
 		0783C6222253644300619E24 /* PuttingItAllTogetherV01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuttingItAllTogetherV01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0783C6252253644300619E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0783C6272253644300619E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,12 +88,16 @@
 		07949E3B225A95DB00407846 /* Screenshot 2019-04-07 at 21.31.39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2019-04-07 at 21.31.39.png"; sourceTree = "<group>"; };
 		07949E3D225A97C700407846 /* Scene01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene01ViewController.swift; sourceTree = "<group>"; };
 		07949E4E225AA36500407846 /* scene01.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = scene01.mov; sourceTree = "<group>"; };
+		07DDE10B229022BC00B6F780 /* new logbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new logbook.png"; sourceTree = "<group>"; };
+		07DDE10C229022BC00B6F780 /* new story.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new story.png"; sourceTree = "<group>"; };
 		07FCA1F72278895F00F3463C /* scene05.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = scene05.mov; sourceTree = "<group>"; };
 		07FCA1F82278895F00F3463C /* scene06.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = scene06.mov; sourceTree = "<group>"; };
 		07FCA1F92278896000F3463C /* scene07.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = scene07.mov; sourceTree = "<group>"; };
 		07FCA1FA2278896100F3463C /* scene03.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = scene03.mov; sourceTree = "<group>"; };
 		07FCA1FB2278896100F3463C /* scene04.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = scene04.mov; sourceTree = "<group>"; };
 		07FCA2012278AE3C00F3463C /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		47BBA25A172E1CF653FFEB16 /* Pods-PuttingItAllTogetherV01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuttingItAllTogetherV01.release.xcconfig"; path = "Target Support Files/Pods-PuttingItAllTogetherV01/Pods-PuttingItAllTogetherV01.release.xcconfig"; sourceTree = "<group>"; };
+		F9FE078160085ABF212E7EC0 /* Pods_PuttingItAllTogetherV01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuttingItAllTogetherV01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B509B8522AD6A5522F90BBE7 /* Pods_PuttingItAllTogetherV01.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +117,8 @@
 			children = (
 				0783C6242253644300619E24 /* PuttingItAllTogetherV01 */,
 				0783C6232253644300619E24 /* Products */,
+				188089A32AB0BC6E9E5C660F /* Pods */,
+				09C228D8EE87661CDB53ADC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +144,16 @@
 				0783C6252253644300619E24 /* AppDelegate.swift */,
 				0783C6272253644300619E24 /* ViewController.swift */,
 				0783C6292253644300619E24 /* Main.storyboard */,
+				0712BDD9229198B6008CD8C0 /* ProgressMapViewController.swift */,
+				07DDE10B229022BC00B6F780 /* new logbook.png */,
+				07DDE10C229022BC00B6F780 /* new story.png */,
+				0729027D228D973F000E1D9B /* island 1.png */,
+				0729027B228D973D000E1D9B /* island 2.png */,
+				0729027C228D973E000E1D9B /* island 3.png */,
+				07290279228D973D000E1D9B /* island 4.png */,
+				07290277228D973B000E1D9B /* island 5.png */,
+				07290278228D973C000E1D9B /* island 6.jpg */,
+				0729027A228D973D000E1D9B /* island 7.png */,
 				071567E1228364EB00C97AD7 /* text b0x2.png */,
 				071567DF2283640500C97AD7 /* text box.jpg */,
 				073639ED2281B57200F0CAD3 /* log reading2.jpg */,
@@ -116,6 +163,11 @@
 				07949E3D225A97C700407846 /* Scene01ViewController.swift */,
 				07949E3B225A95DB00407846 /* Screenshot 2019-04-07 at 21.31.39.png */,
 				0783C63D22538F7000619E24 /* LogBookViewController.swift */,
+				0712BDCE22918BFE008CD8C0 /* t1.png */,
+				0712BDD022918BFF008CD8C0 /* t2.png */,
+				0712BDCD22918BFE008CD8C0 /* t3.png */,
+				0712BDCF22918BFE008CD8C0 /* t4.png */,
+				0712BDD122918BFF008CD8C0 /* t5.png */,
 				073639E5227B499A00F0CAD3 /* background.jpg */,
 				0783C63F2253929B00619E24 /* EnterBloodReadingViewController.swift */,
 				0783C63B22536C0E00619E24 /* home_button.png */,
@@ -127,6 +179,24 @@
 			path = PuttingItAllTogetherV01;
 			sourceTree = "<group>";
 		};
+		09C228D8EE87661CDB53ADC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE078160085ABF212E7EC0 /* Pods_PuttingItAllTogetherV01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188089A32AB0BC6E9E5C660F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				077E6CE5D66EFFF8024351B8 /* Pods-PuttingItAllTogetherV01.debug.xcconfig */,
+				47BBA25A172E1CF653FFEB16 /* Pods-PuttingItAllTogetherV01.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0783C6342253644500619E24 /* Build configuration list for PBXNativeTarget "PuttingItAllTogetherV01" */;
 			buildPhases = (
+				544BAC1E4ABDE7D1EF59CA1C /* [CP] Check Pods Manifest.lock */,
 				0783C61E2253644300619E24 /* Sources */,
 				0783C61F2253644300619E24 /* Frameworks */,
 				0783C6202253644300619E24 /* Resources */,
+				59542A0BD81AFE7D56F8D7A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,30 +257,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0712BDD222918C00008CD8C0 /* t3.png in Resources */,
+				0712BDD422918C00008CD8C0 /* t4.png in Resources */,
+				07290280228D9740000E1D9B /* island 4.png in Resources */,
+				07290281228D9740000E1D9B /* island 7.png in Resources */,
 				07FCA1FE2278896100F3463C /* scene07.mov in Resources */,
+				07DDE10E229022BD00B6F780 /* new story.png in Resources */,
 				0783C63C22536C0E00619E24 /* home_button.png in Resources */,
+				0712BDD522918C00008CD8C0 /* t2.png in Resources */,
 				073639EA2281AB1000F0CAD3 /* logbook background.jpg in Resources */,
 				07FCA1FD2278896100F3463C /* scene06.mov in Resources */,
+				0729027E228D9740000E1D9B /* island 5.png in Resources */,
 				07949E4F225AA36600407846 /* scene01.mov in Resources */,
 				0783C6302253644500619E24 /* LaunchScreen.storyboard in Resources */,
 				073639E82281A91B00F0CAD3 /* main background.jpg in Resources */,
 				073639EE2281B57200F0CAD3 /* log reading2.jpg in Resources */,
 				0740623F2266249700DE28A7 /* scene02.mov in Resources */,
+				0729027F228D9740000E1D9B /* island 6.jpg in Resources */,
 				071567E2228364EB00C97AD7 /* text b0x2.png in Resources */,
 				071567E02283640500C97AD7 /* text box.jpg in Resources */,
 				07FCA2002278896100F3463C /* scene04.mov in Resources */,
 				0783C62D2253644500619E24 /* Assets.xcassets in Resources */,
 				0786C45E225B54EC0068778A /* map.png in Resources */,
+				07290282228D9740000E1D9B /* island 2.png in Resources */,
 				073639E6227B499A00F0CAD3 /* background.jpg in Resources */,
 				07FCA1FF2278896100F3463C /* scene03.mov in Resources */,
+				07DDE10D229022BD00B6F780 /* new logbook.png in Resources */,
 				0783C62B2253644300619E24 /* Main.storyboard in Resources */,
 				073639EC2281B54600F0CAD3 /* log reading.jpg in Resources */,
+				07290283228D9740000E1D9B /* island 3.png in Resources */,
 				07949E3C225A95DB00407846 /* Screenshot 2019-04-07 at 21.31.39.png in Resources */,
+				0712BDD622918C00008CD8C0 /* t5.png in Resources */,
+				07290284228D9740000E1D9B /* island 1.png in Resources */,
+				0712BDD322918C00008CD8C0 /* t1.png in Resources */,
 				07FCA1FC2278896100F3463C /* scene05.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		544BAC1E4ABDE7D1EF59CA1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PuttingItAllTogetherV01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59542A0BD81AFE7D56F8D7A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PuttingItAllTogetherV01/Pods-PuttingItAllTogetherV01-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PuttingItAllTogetherV01/Pods-PuttingItAllTogetherV01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0783C61E2253644300619E24 /* Sources */ = {
@@ -220,6 +353,7 @@
 				0783C6282253644300619E24 /* ViewController.swift in Sources */,
 				0783C6262253644300619E24 /* AppDelegate.swift in Sources */,
 				07FCA2022278AE3C00F3463C /* ToDoViewController.swift in Sources */,
+				0712BDDA229198B6008CD8C0 /* ProgressMapViewController.swift in Sources */,
 				0783C6402253929B00619E24 /* EnterBloodReadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +498,7 @@
 		};
 		0783C6352253644500619E24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077E6CE5D66EFFF8024351B8 /* Pods-PuttingItAllTogetherV01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,6 +517,7 @@
 		};
 		0783C6362253644500619E24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BBA25A172E1CF653FFEB16 /* Pods-PuttingItAllTogetherV01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
